@@ -49,3 +49,5 @@ print new_player
 ##a元祖，用来存不可变的值
 dimensions = (2,1,3,4,5,2)
 print dimensions
+
+#git测试
