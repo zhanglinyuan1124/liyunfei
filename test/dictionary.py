@@ -41,9 +41,26 @@ users = {
     'first':'li',
     'last_name':'yuenfei',
     'age':'20',
-    'major':'programer'
+    'major':'programer',
+    'do':'20'
 }
 
 for key,value in users.items():
     print("\nKey: " + key)
     print("\nValue: "+ value)
+
+for name in users:
+    print(name)
+    print name.title()
+
+#按顺序返回键
+for name in sorted(users.keys()):
+    print name
+
+#遍历字典的值
+for value in sorted(users.values()):
+    print value
+
+#使用set剔除重复项
+for value in sorted(set(users.values())):
+    print value
