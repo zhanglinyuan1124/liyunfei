@@ -1,5 +1,5 @@
 #-*- coding:UTF-8 -*-
-class Restaurant(object):
+class Restaurant():
     '''创建一个名为餐馆的类'''
     def __init__(self,restaurant_name,cuisine_type):
         '''初始化'''
@@ -57,5 +57,3 @@ user2.describe()
 user2.increm_login_attemp()
 user2.increm_login_attemp()
 user1.increm_login_attemp()
-
-
